@@ -1,6 +1,5 @@
 import React, { useState,useEffect } from "react";
-import { Link, Route } from "react-router-dom";
-import CharacterCard from "./CharacterCard";
+import{ characterPics} from "../data";
 
 export default function SearchForm(props) {
   console.log(props.chars);
@@ -40,6 +39,7 @@ console.log(filtered);
         {filtered.map(filt=>{
           return (
           <div classname = "filtered"><ul>
+            <img className = "filt-pics"src = {characterPics[filt.id]} ></img>
             <li>{filt.name}</li>
             <li>{filt.gender}</li>
             <li>{filt.species}</li>
