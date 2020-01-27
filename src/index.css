@@ -2,6 +2,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("https://vignette.wikia.nocookie.net/rickandmorty/images/e/e1/S1e10_hideout_planet.png/revision/latest?cb=20160911012541");
+}
+
+.welcome-div{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.welcome-page{
+  background-image: url("https://vignette.wikia.nocookie.net/rickandmorty/images/e/e1/S1e10_hideout_planet.png/revision/latest?cb=20160911012541");
 }
 
 main {
@@ -23,6 +34,17 @@ main {
 .page-view {
   min-height: 40vh;
 }
+.main-img{
+  width:500px;
+  margin:2%;
+  position: relative;
+  left:250px;
+}
+
+.linkPic{
+  width:100px;
+  height:100px;
+}
 
 .grid-view div.card.ui {
   margin: 1.25rem;
@@ -36,4 +58,48 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+input{
+  width:300px;
+}
+
+img{
+  height:250px;
+  width:250px;
+  
+}
+
+.charCard{
+  text-align: center;
+  margin:2%;
+}
+
+.search-form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filtered{
+  border: 1px solid black;
+}
+
+
+
+li{
+  font-weight: bold;
+  color:purple;
+}
+
+h2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  color:purple;
+}
+
+span{
+  color:purple;
 }
